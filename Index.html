@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Chad Rice</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="topnav">
+            <a class="nav-link" href="#About">Chad Rice</a>
+            <a class="nav-link" href="#Career">Career Interests</a>
+            <a class="nav-link" href="#Education">Education</a>
+            <a class="nav-link" href="#Work">Work</a>
+            <a class="nav-link" href="#Interests">Hobbies &amp Interests</a>
+            <a href="Boostrap.html">Boostrap</a>
+            <div class="pull-right">
+                <!-- Modal Button -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#contactModal"
+                    style="padding: 18px 1px; font-size: 17px; overflow: hidden; float: left;">
+                    Contact Info
+                </button>
+                <!-- Modal Box -->
+                <div class="modal fade" id="contactModal" tabindex="-1" role="dialog"
+                    aria-labelledby="contactModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content" style="background-color: white; color: black;">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="contactModalLabel">You Can Contact Me Here:</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body" style="text-align: center;">
+                                <!-- LinkedIn Account -->
+                                <span style="margin: 0 10px; display: inline-block;">
+                                    <a href="https://www.linkedin.com/in/chaddavidrice" target="_blank">
+                                        <i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i>
+                                    </a>
+                                </span>
+
+                                <!-- Personal Gmail -->
+                                <span style="margin: 0 10px; display: inline-block;">
+                                    <a href="mailto:chaddrice2000@gmail.com" target="_blank">
+                                        <i class="fas fa-envelope fa-2x" style="color: #d14836;"></i>
+                                    </a>
+                                </span>
+
+                                <!-- School Email -->
+                                <span style="margin: 0 10px; display: inline-block;">
+                                    <a href="mailto:X00171454@mytudublin.ie" target="_blank">
+                                        <i class="fas fa-envelope fa-2x" style="color: blue;"></i>
+                                    </a>
+                                </span>
+                            </div>
+
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="material-icons" onclick="darkMode()">dark_mode</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section. Used LinkedIn as a basis for this area.-->
+    <div class="hero-container" id="About" style="position: relative;">
+        <div class="container">
+            <div class="row">
+                <!-- Image Column -->
+                <div class="col-12 col-md-4">
+                    <img src="linked.jpg" alt="Chad Rice" class="hero-image img-circle mb-3"
+                        style="width: 300px; height: 300px; margin-bottom: 3rem;">
+                    <!-- <img src="TUD.png" alt="Additional Image Description" class="img-fluid" style="max-width: 100%; height: auto;"> -->
+                </div>
+                <!-- Text Column -->
+                <div class="col-xs-12 col-sm-8">
+                    <div class="hero-content" style="font-size: 1.8rem; padding-left: 20px; padding-top: 5rem;">
+                        <div class="content">
+                            <div role="panel">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h2>About Me</h2>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>Hello my name is Chad Rice and I am a 4th year Computing with Software
+                                            development
+                                            student at
+                                            Technological University Dublin. I am 23 years old and I live in Dublin,
+                                            Ireland.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Career" class="container">
+        <div class="content">
+            <div role="panel">
+                <div class="panel panel-default">
+                    <div class="panel-heading col text-center">
+                        <h2>Career Interests</h2>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.8rem;">
+                        <p>I have really enjoyed the data analysis and applied machine Learning modules, that I have
+                            done in college, because of this I have applied to take part in the Nvidia workshop.
+                            This will result in a NVIDIA certification.
+                            <br>
+                            <br>
+                            A job assocaiated with either of those modules interests me as I like see how data
+                            can be visaulised into useful information. I also enjoy looking at different datasets
+                            even if I don't have an interest in that particular topic.
+                            Earlier this year I did an assignment about Natural Language Porcessing which is used in
+                            machine learning. NLP, teaches programs to understand human language e.g. you ask
+                            ChatGPT a question how does it understand your question and display an appropriate
+                            answer.
+                            <br>
+                            NLP has been used for programs like google translate, Siri and Alexa, gps and most
+                            notably in the last year it is being used by ChatGPT.
+                            <br>
+                            <br>
+                            Since I did an internship in Quality Assurance testing I also wouldn't mind pursuing
+                            a career in that field as I found it easy to understand and complete work for.
+                            However I am more interested in pursuing a career in other computing fields first as
+                            I would like to use what I have learned over the last 4 years more and I also found
+                            testing to be a bit boring at times as the first few weeks of a new sprint is mostly
+                            waiting for developers to finish there code
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Education" class="container">
+        <div class="tab-content">
+            <div role="tabpanel">
+                <div class="panel panel-default">
+                    <div class="panel-heading col text-center">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.8rem;">
+                        <ul>
+                            <ol>I have been attending Technological University Dublin, Tallaght Campus since
+                                September 2020. </ol>
+                            <ol>Before attending TUD, from September 2019 to May 2020 I did a level 5 QQI PLC in the
+                                Dún Laoghaire Further Education Institute.</ol>
+                            <ol>I Graduated from Firhouse Community College in 2019.</ol>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#Fourth" aria-controls="Fourth" role="tab" data-toggle="tab">4th Year</a>
+            </li>
+            <li role="presentation">
+                <a href="#Third" aria-controls="Third" role="tab" data-toggle="tab">3rd Year</a>
+            </li>
+            <li role="presentation">
+                <a href="#Second" aria-controls="Second" role="tab" data-toggle="tab">2nd Year</a>
+            </li>
+            <li role="presentation">
+                <a href="#First" aria-controls="First" role="tab" data-toggle="tab">1st Year</a>
+            </li>
+        </ul>
+
+        <!-- 4th Year Results -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="Fourth">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">4th Year Grades</h3>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.5rem;">
+                        <p>4th Year grades are unavailable, but the modules I am taking are:</p>
+                        <ul>
+                            <li>Applied Machine Learning</li>
+                            <li>Enterprise Applications Development 1</li>
+                            <li>Enterprise Performance Architecture</li>
+                            <li>Information Management</li>
+                            <li>Interactive Media Design &amp Visualisation</li>
+                            <li>4th Year Project: For my 4th year project I am creating a online game retail store
+                                for
+                                buying pc games. I am using ASP.NET MVC as my framework as I wanted to get better at
+                                C#.
+                                I am currently implementing the IGDB API into my site.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd Year Results -->
+            <div role="tabpanel" class="tab-pane fade" id="Third">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">3rd Year Grades</h3>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.5rem;">
+                        <p>GPA: 2.33</p>
+                        <ul>
+                            <li>Experimental Learning(Internship): PS</li>
+                            <li>Server-side Web Development: B-</li>
+                            <li>Operating Systems: B-</li>
+                            <li>Cloud Services &amp Distributed Computing: C</li>
+                            <li>Big Data Technologies: C+</li>
+                            <li>Data Structures &amp Algorithms: C</li>
+                            <li>Data Analysis: C</li>
+                            <li>In 3rd year I had a project for data analysis. I decided to do my project on the affects population has on housing prices in Dublin, Wexford, Cork and Galway, with particular interest in the prices around the recession. 
+                                <br> 
+                                <br>
+                                I got a dataset that had the house prices from 1996 until 2015. In this dataset I could clearly see a drop in house prices around 2008, 2009 that lasted until 2013 to 2014 depending on the area. 
+                                <br>
+                                <br>
+                                I wasn't able to find a good population dataset sadly. This was due to the years the census is taken in Ireland to vary. The closest census to the start of the recession was in 2011, there was a census taken in 2016 that was useful for the house prices in 2015.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd Year Results -->
+            <div role="tabpanel" class="tab-pane fade" id="Second">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">2nd Year Grades</h3>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.5rem;">
+                        <p>GPA: 2.75</p>
+                        <ul>
+                            <li>Routing &amp Switching Essentials: B</li>
+                            <li>Software Development 4: C</li>
+                            <li>Management Science: B+</li>
+                            <li>Database Admin &amp Analysis: C</li>
+                            <li>Information Security: C</li>
+                            <li>Software Development 3: B</li>
+                            <li>Software Quality Assurance Testing: B-</li>
+                            <li>Network Fundamentals: B</li>
+                            <li>Advanced Database Technologies: B-</li>
+                            <li>Discrete Maths 2: A</li>
+                            <li>Client-Side Web Development: B</li>
+                            <li>Project: C</li>
+                            <li>For my 2nd year project, my group decided to make a cinema ticket booking site using django. We had a lot of issues with github that caused delays in our project as people weren't able to push there code to the main branch due to significant changes. 
+                                <br> The only way we were able to fix this was to completely wipe our database each time, which then meant we had to recreate all products and any users.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1st Year Results -->
+            <div role="tabpanel" class="tab-pane fade" id="First">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">1st Year Grades</h3>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.5rem;">
+                        <p>GPA: 3.33</p>
+                        <ul>
+                            <li>Software Development 2: B+</li>
+                            <li>Systems Analysis: B-</li>
+                            <li>Socail Media Communications: B+</li>
+                            <li>Statistics: B</li>
+                            <li>Database Fundamentals: A</li>
+                            <li>Operating Systems Fundamentals: A</li>
+                            <li>Software Development 1: B-</li>
+                            <li>Visual Design &amp User Experience: A</li>
+                            <li>Business &amp Information Systems: B</li>
+                            <li>Discrete Maths 1: C+</li>
+                            <li>Critical Skills Development: A</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Work" class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#DAFM" aria-controls="DAFM" role="tab" data-toggle="tab">Department Of Agriculture</a>
+            </li>
+            <li role="presentation">
+                <a href="#Store" aria-controls="Store" role="tab" data-toggle="tab">SuperValu</a>
+            </li>
+            <li role="presentation">
+                <a href="#Cinema" aria-controls="Cinema" role="tab" data-toggle="tab">Movies@Dundrum</a>
+            </li>
+        </ul>
+
+        <!-- Tab Content Section -->
+        <div class="tab-content">
+            <!-- DAFM -->
+            <div role="tabpanel" class="tab-pane fade in active" id="DAFM">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Internship with the Department of Agriculture: January - September 2023</h2>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.5rem;">
+                        <img src="DAFMlogo.png" alt="" class="img-responsive img-circle"
+                            style="width: 300px; height: 300px; margin: 0 auto;">
+                        <p>In the Department of Agriculture I worked as a software tester for an agile team. My role
+                            in
+                            the
+                            team
+                            was to:</p>
+                        <ul>
+                            <li>Write test cases in preparation for test executions.</li>
+                            <li>Execute the test cases.</li>
+                            <li>Report any bugs found during my testing (using JIRA).</li>
+                            <li>Attend daily stand-up meetings and monthly planning and retrospectives.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SuperValu-->
+            <div role="tabpanel" class="tab-pane fade" id="Store">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Regan's SuperValu Firhouse: November 2021 - November 2022</h2>
+                    </div>
+                    <div class="panel-body">
+                        <img src="SuperValu.jpg" alt="" class="img-responsive img-circle"
+                            style="width: 300px; height: 300px; margin: 0 auto;">
+                        <p>I worked as a member of the floor staff for Supervalu and my job was to:</p>
+                        <ul>
+                            <li>Stacking shelves.</li>
+                            <li>Cleaning the shop floor at night</li>
+                            <li>Closing the back storage at night</li>
+                            <li>Stock and delivery checks</li>
+                            <li> Assist customers on self scan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movies@Dundrum -->
+            <div role="tabpanel" class="tab-pane fade" id="Cinema">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Movies @ Dundrum: November 2019 - July 2021</h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="Movies@.jpg" alt="" class="img-responsive img-circle"
+                            style="width: 300px; height: 300px; margin: 0 auto;">
+                        <p class="card-text">While working at Movies @ Dundrum my job was to:</p>
+                        <ul>
+                            <li>On retail sell movie tickets, popcorn, and drinks</li>
+                            <li>Assist customers</li>
+                            <li>Clean screens</li>
+                            <li>When closing I would clean the screens and make sure all screens were empty, empty
+                                the
+                                bins, and
+                                clean
+                                behind retail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Interests" class="container">
+        <div class="content">
+            <div role="panel">
+                <div class="panel panel-default">
+                    <div class="panel-heading col text-center">
+                        <h2>Hobbies &amp Interests</h2>
+                    </div>
+                    <div class="panel-body" style="font-size: 1.8rem;">
+                        <p>I enjoy playing video games, and watching movies and t.v. shows. I play video games on my
+                            desktop PC
+                            and another interest of mine is PC hardware. I have built my own desktop pc. <br>
+                            <br>I first got my PC in 2020 and I had an AMD Ryzen 7 3700x cpu, Nvidia Geforce 2060
+                            gpu, with 16gb of
+                            ram.
+                            In 2022 I upgraded my graphics card to a Nvidia Geforce 3070ti and my ram to 32gb of
+                            ram. This meant I had to upgrade my PC case and power supply as the old case was to
+                            small and the new gpu needed a minimum of 650 watts, so I got 750 watts to be safe.
+                            <br>
+                            <br>In October I releaized that my gpu was being bottlenecked by the AMD Ryzen 7 was too
+                            weak for the new gpu and this was casuing my fps to drop in games. So I upgraded my cpu
+                            to an AMD Ryzen 9 7950X. This meant I also had to upgrade my motherboard as my old
+                            motherboard was AMD 4 and then new cpu is AMD 5. I also had to get new ram as the new
+                            motherboard used DDR5 instead of DDR4.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="#topnav" class="btn btn-success">Back to top</a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="Javascript/tabdisplay.js"></script>
+    <script src="Javascript/dark.js"></script>
+</body>
+
+</html>
